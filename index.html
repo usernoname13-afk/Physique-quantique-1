@@ -25,3 +25,17 @@
 <thead>page</thead>
 <code>1</code>
 <textarea name="texte" rows="4"></textarea>
+    <button id="tourner">Clique ici pour changer de page</button>
+
+<script>
+    // Étape 2 : On cible le bouton dans le script
+    const monBouton = document.getElementById('tourner');
+
+    // Étape 3 : On écoute le clic
+    monBouton.addEventListener('click', () => {
+        
+        // Étape 4 : Écris la commande pour changer de page vers le site de ton choix
+        window.location.href = "https://fr.wikipedia.org/wiki/Histoire_de_la_m%C3%A9canique_quantique#:~:text=En%201905%2C%20Albert%20Einstein%20expliqua,points%20localis%C3%A9s%20dans%20l'espace.";
+
+    });
+</script>
